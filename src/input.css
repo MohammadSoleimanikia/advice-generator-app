@@ -1,3 +1,19 @@
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap');
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+.main-container{
+    @apply bg-[#202632] flex justify-center items-center h-screen font-Manrope 
+}
+.main{
+    @apply bg-[#313A49] w-11/12 h-80 flex flex-col items-center justify-center  rounded-xl p-6 relative
+}
+#advice-text{
+    @apply text-2xl font-semibold text-[#CFE4EA] text-center my-7
+}
+#advice-number{
+    @apply text-[#53FFAA] text-xs tracking-[3px] font-semibold
+}
+#dice{
+    @apply bg-[#53FFAA] size-16 rounded-full flex justify-center items-center absolute -bottom-8
+}
