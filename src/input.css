@@ -17,3 +17,12 @@
 #dice{
     @apply bg-[#53FFAA] size-16 rounded-full flex justify-center  hover:shadow-3xl shadow-[#53FFAA] items-center absolute -bottom-8 cursor-pointer transition-all duration-300
 }
+.loading{
+    @apply absolute  w-full h-full bg-[#202632ac] flex justify-center items-center
+}
+.hideContent{
+    @apply hidden
+}
+.loading img{
+    @apply size-36
+}

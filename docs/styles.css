@@ -657,6 +657,25 @@ video {
   box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
 }
 
+.loading{
+  position: absolute;
+  display: flex;
+  height: 100%;
+  width: 100%;
+  align-items: center;
+  justify-content: center;
+  background-color: #202632ac;
+}
+
+.hideContent{
+  display: none;
+}
+
+.loading img{
+  width: 9rem;
+  height: 9rem;
+}
+
 @media (min-width: 768px){
   .md\:block{
     display: block;
