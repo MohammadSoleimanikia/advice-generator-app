@@ -6,6 +6,9 @@ module.exports = {
       fontFamily:{
         Manrope:['Manrope']
       },
+      boxShadow:{
+        '3xl':"0 0 20px rgb(83,255,170)"
+      },
     },
   },
   plugins: [],

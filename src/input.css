@@ -6,14 +6,14 @@
     @apply bg-[#202632] flex justify-center items-center h-screen font-Manrope 
 }
 .main{
-    @apply bg-[#313A49] w-11/12 h-80 flex flex-col items-center justify-center  rounded-xl p-6 relative
+    @apply bg-[#313A49] w-11/12 md:w-4/6 xl:w-5/12 h-80 flex flex-col items-center justify-center  rounded-xl p-6  relative
 }
 #advice-text{
-    @apply text-2xl font-semibold text-[#CFE4EA] text-center my-7
+    @apply text-2xl xl:text-3xl font-semibold text-[#CFE4EA] text-center my-7
 }
 #advice-number{
-    @apply text-[#53FFAA] text-xs tracking-[3px] font-semibold
+    @apply text-[#53FFAA] text-xs md:text-sm md:mb-7 tracking-[3px] md:tracking-[4px] font-semibold
 }
 #dice{
-    @apply bg-[#53FFAA] size-16 rounded-full flex justify-center items-center absolute -bottom-8
+    @apply bg-[#53FFAA] size-16 rounded-full flex justify-center  hover:shadow-3xl shadow-[#53FFAA] items-center absolute -bottom-8 cursor-pointer transition-all duration-300
 }
